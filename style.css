@@ -1,0 +1,42 @@
+#field td{
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    
+}
+h1{
+    font-size: 50px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button{
+    background-color: rgba(201, 249, 252, 1);
+    font-size: 28px;
+    color: black;
+    border-radius: 50px;
+    width: 600px;
+    border: 4px solid #000;
+    height: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+td{
+    border-radius: 16px;
+    border: 8px solid #000;
+    background: rgba(201, 249, 252, 1);
+    width: 220px;
+    height: 219px;
+    flex-shrink: 0;
+    
+}
+.container{
+    border-radius: 50px;
+    border: 20px solid #000;
+    background: #FFF;
+    width: 880px;
+    height: 880px;
+    flex-shrink: 0;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+    height: 100vh;  
+}
